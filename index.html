@@ -29,13 +29,13 @@
                 <li class="nav--list">sponusr</li>
                 <li class="nav--list">contact us</li>       
             </nav>
-            <div class="hid-bar">
-                 <span class="bar-icon"  onClick="close()"><i class="fas fa-bars"></i></span>
+            <div class="hid-bar" onClick="myBtn()">
+                 <span class="bar-icon"><i class="fas fa-bars"></i></span>
                
             </div>
             <div id="overlay-1" class="overlay">
-                <div>
-                    <span class="close-icon" onclick="windClose()"><i class="fas fa-times-circle"></i></span>
+                <div onClick="myBar()">
+                    <span class="close-icon"><i class="fas fa-times-circle"></i></span>
                 </div>
                 <li class="nav--l2">Home</li>
                 <li class="nav--l2">About</li>
@@ -290,6 +290,14 @@
                 </div>
             </div>
         </footer>
+        <script>
+            const myBtn = () => {
+                document.getElementById("overlay-1").style.display='block';
+            }
+           const myBar = () =>{
+            document.getElementById("overlay-1").style.display='none';
+           }
         
+        </script>
 </body>
 </html>

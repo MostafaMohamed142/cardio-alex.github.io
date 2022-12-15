@@ -45,8 +45,7 @@
             cursor: pointer !important;
     }
     #overlay-1{
-      display: block;
-      position: absolute !important;
+      display: none;
       z-index: 14 !important;
       height: 100vh !important;
       width: 100% !important;
@@ -54,6 +53,7 @@
       text-align: center !important;
       list-style: none !important;
       transition: .3s all ease-in !important;
+      margin-left: -6em !important;
     }
      
     .close-icon{
@@ -64,6 +64,10 @@
     .nav--l2{
       font-size: 1.5em !important;
       margin-top: 1% !important;
+      cursor: pointer;
+    }
+    .nav--l2:hover{
+      color:#fff;
     }
     .head-h1{
       font-size: 3em !important;
