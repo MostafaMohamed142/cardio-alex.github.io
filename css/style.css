@@ -224,7 +224,7 @@ width: 10vw;
     padding: 10px;
 font-size: 1.7rem;
 }
-.overlay{
+#overlay-1{
   display: none;
 }
   /* /site-header */
