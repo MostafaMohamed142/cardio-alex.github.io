@@ -78,7 +78,7 @@ width: 100% !important;
     }
 .cont_list_tiempo {
   width: 380px !important;
-  margin-right: -2%;
+  margin-right: -5%;
     }
     .cont_list_tiempo > ul > li{
       width: 23% !important;
@@ -125,7 +125,7 @@ input[type="email"]{
   width: auto !important;
 }
 .cpy-r {
-  left: 4em !important;
+  left: 3em !important;
 top: 81% !important;
     
   }
