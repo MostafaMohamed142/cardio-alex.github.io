@@ -1,0 +1,232 @@
+@media screen and (max-width: 480px) {
+.header-logo{
+    margin:0.1em !important;
+}
+.logo--img {
+    width: 25vw !important;
+    padding: 10px;
+  }
+.header-nav{
+    display: none !important;
+}
+.bar-icon{
+  margin-right: 2% !important;
+}
+.hid-bar{
+        display: block !important;  
+        color: white !important;
+        right: 3em !important;
+        cursor: pointer !important;
+} 
+.close-icon{
+  font-size: 2em !important;
+  margin-left: 70% !important;
+  cursor: pointer;
+}
+.nav--l2{
+  font-size: 1.5em !important;
+  margin-top: 1% !important;
+}
+.abt-cont {
+    position: relative !important;
+    top: 6.5em !important;
+    background-color: #1a1a2f !important;
+  }
+  .abt-heading {
+    padding: 2em !important;
+    color: #fff;
+    font-size: 1.5em !important;
+  }
+  .abt-p {
+    font-size: 1em !important;
+    color: #fff;
+  }
+  .abt-social {
+    font-size: 2em !important;
+    padding: 1em !important;
+  }
+  .abt-text{
+    width: auto !important;
+  }
+  .light-text {
+    text-align: center !important;
+    font-size: 2em !important;
+    padding: .2em !important;
+    color: #fff !important;
+  }
+  .light-p {
+    font-size: 1.2em !important;
+    padding: 1em !important;
+    line-height: 30px !important;
+    color: #fff;
+    margin-top: -3em !important;
+  }
+  .abt-btn {
+    font-size: 1.5em !important;
+    margin-left: 6em !important;
+    padding: .3em !important;
+    color: #f00 !important;
+    margin-top: -.7em !important;
+    position: absolute !important;
+    z-index: 3 !important;
+    background-color: #d2c05ee3 !important;
+  }
+  .abt-img{
+    width: auto !important;
+  }
+  .abt--img {
+    width: 449px !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    margin-left: -28em !important;
+    margin-top: -10em !important;
+}
+.abt-foot {
+    top: 11em !important;
+}
+.cp-1 {
+    padding: 2em !important;
+    font-size: 1em !important;
+    color: #fff;
+  }
+}
+/* ///////////////////////// */
+.header-cont{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    right: 0.1%;
+    height: 18vh;
+    background-color: rgba(19, 18, 18, 0.67);
+    z-index: 7;
+}
+.header-logo{
+    margin: auto;
+width: 20vw;
+text-align: center;
+
+}
+.logo--img{
+    width: 10vw;
+    padding: 10px;
+}
+.header-nav{
+    margin: auto;
+    width: 70vw;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 10px;
+}
+.nav--list{
+    margin: auto;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+.nav--list:hover {
+  color: cornflowerblue;
+  transition: 0.2s all ease-in;
+}
+.hid-bar{
+    margin: auto;
+display: none;
+position: absolute;
+right: 1%;
+padding: 10px;
+width: 10vw;
+}
+.bar-icon{
+    padding: 10px;
+font-size: 1.7rem;
+}
+/* ..... */
+.abt-cont {
+    position: relative;
+    top: 6.5em;
+    background-color: #1a1a2f;
+    height: 350px;
+    width: 100vw;
+    left: -8px;
+    text-align: center;
+  }
+  .abt-heading {
+    padding: 1em;
+    color: #fff;
+    font-size: 2em;
+  }
+  .abt-p {
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 2em;
+  }
+  .abt-social {
+    font-size: 3em;
+    padding: 1em;
+  }
+  /*  */
+  
+.snd {
+    position: relative;
+    top: 9em;
+    left: 0em;
+    display: flex;
+    flex-direction: row;
+}
+.abt-text {
+    margin: auto;
+    width: 50%;
+    background-color: #223259;;
+    height: 395px;
+    opacity: 0.8; 
+    
+  }
+  .light-text {
+    text-align: center;
+    font-size: 2em;
+    padding: .2em;
+    color: #fff;
+  }
+  .light-p {
+    font-size: 1.2em;
+    padding: 1em;
+    line-height: 30px;
+    color: #fff;
+  }
+  .abt-img {
+    margin: auto;
+    width: 30%;
+  }
+  .abt--img {
+    width: 500px;
+    height: 320px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -15em;
+    margin-top: -9em;
+    border: 1px solid white;
+    border-radius: 4px;
+  }
+  .abt-btn {
+    font-size: 1.5em;
+    margin-left: 11em;
+    padding: .3em;
+    color: darkred;
+  }
+  .abt-foot{
+    position: relative;
+top: 9em;
+background-color: #005379;
+text-align: center;
+border-radius: 4px;
+  }
+  .cp-1 {
+    padding: 2em;
+    font-size: 1.2em;
+    color: #fff;
+  }

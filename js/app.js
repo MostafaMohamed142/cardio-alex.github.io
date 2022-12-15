@@ -1,13 +1,10 @@
-// window on load
+// toggle
 
+function windClose(){
+  $(".overlay").css('display','none');
+}
 
-
-
-
-
-
-
-
+// ////////////////////
 const year = new Date().getFullYear();
 const thirteenOfJune = new Date(year, 6,13).getTime();
 const thirteenOfJuneNextYear = new Date(year + 1, 3, 21).getTime();

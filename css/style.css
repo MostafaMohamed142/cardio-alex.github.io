@@ -42,6 +42,28 @@
             display: block !important;  
             color: white !important;
             right: 3em !important;
+            cursor: pointer !important;
+    }
+    #overlay-1{
+      display: block;
+      position: absolute !important;
+      z-index: 14 !important;
+      height: 100vh !important;
+      width: 100% !important;
+      background-color: #ffffffa3 !important;
+      text-align: center !important;
+      list-style: none !important;
+      transition: .3s all ease-in !important;
+    }
+     
+    .close-icon{
+      font-size: 2em !important;
+      margin-left: 70% !important;
+      cursor: pointer;
+    }
+    .nav--l2{
+      font-size: 1.5em !important;
+      margin-top: 1% !important;
     }
     .head-h1{
       font-size: 3em !important;
@@ -178,6 +200,9 @@ text-align: center;
     color: #fff;
     cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 .nav--list:hover {
   color: cornflowerblue;
   transition: 0.2s all ease-in;
@@ -193,6 +218,9 @@ width: 10vw;
 .bar-icon{
     padding: 10px;
 font-size: 1.7rem;
+}
+.overlay{
+  display: none;
 }
   /* /site-header */
 
