@@ -35,6 +35,9 @@
     .header-nav{
         display: none !important;
     }
+    .bar-icon{
+      margin-right: 2% !important;
+    }
     .hid-bar{
             display: block !important;  
             color: white !important;
@@ -75,12 +78,16 @@ width: 100% !important;
     }
 .cont_list_tiempo {
   width: 380px !important;
+  margin-right: -2%;
     }
     .cont_list_tiempo > ul > li{
       width: 23% !important;
     }
     .board-heads {
   display: block !important;
+    }
+    .board-sub{
+      font-size: 2em !important;
     }
     .board-row {
   background-color: #094c8ea6 !important;
@@ -118,7 +125,7 @@ input[type="email"]{
   width: auto !important;
 }
 .cpy-r {
-  left: 5em !important;
+  left: 4em !important;
 top: 81% !important;
     
   }
