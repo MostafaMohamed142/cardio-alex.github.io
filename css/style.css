@@ -71,16 +71,16 @@
     }
     .text{
       bottom: -10vh !important;
-font-size: 41px !important;
+    font-size: 41px !important;
     }
     .text .wrapper-1 {
-      padding-left: 12px !important;
+      padding-left: 10px !important;
 padding-right: 1px !important;
     }
     .head-par{
       bottom: -8em !important;
 font-size: .5em !important;
-padding: 4px !important;
+padding: 8px !important;
     }
     .countdown-cont{
       border-radius: 0.3em !important;
