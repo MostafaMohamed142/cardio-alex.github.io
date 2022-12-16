@@ -69,12 +69,18 @@
     .nav--l2:hover{
       color:#fff;
     }
-    .head-h1{
-      font-size: 3em !important;
-      margin-top: -58%;
+    .text{
+      bottom: -10vh !important;
+font-size: 41px !important;
+    }
+    .text .wrapper-1 {
+      padding-left: 12px !important;
+padding-right: 1px !important;
     }
     .head-par{
-      font-size: 1.2em !important;
+      bottom: -8em !important;
+font-size: .5em !important;
+padding: 4px !important;
     }
     .countdown-cont{
       border-radius: 0.3em !important;
@@ -228,7 +234,40 @@ font-size: 1.7rem;
   display: none;
 }
   /* /site-header */
+  .text {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 100px;
+    display: flex;
+    position: absolute;
+    bottom: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+    background: linear-gradient(0deg, white 75%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.25) 95%, rgba(255, 255, 255, 0) 100%);
 
+  }
+  .text .wrapper-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  .text .wrapper-1 .letter {
+    transition: ease-out 1s;
+    transform: translateY(40%);
+    color: royalblue;
+  }
+  .text .wrapper-1 .shadow {
+    transform: scale(1, -1);
+    color: #999;
+    transition: ease-in 5s, ease-out 5s;
+  }
+  .text .wrapper-1:hover .letter {
+    transform: translateY(-200%);
+  }
+  .text .wrapper-1:hover .shadow {
+    opacity: 0;
+    transform: translateY(200%);
+  }
   /* sec-first */
   .sec-first{
     position: relative;
@@ -241,22 +280,13 @@ font-size: 1.7rem;
     margin-top: -7%;
     height: 50vh;
   }
-  .head-h2{
-    color: white;
-    font-size: 7em;
-    padding: 10px;
-  }
-  .head-h1{
-    color: white;
-    font-size: 5em;
-    padding: 5px;
-  }
   .head-par{
-    color: #1f7fd5;
-    font-size: 1.2em;
-    text-shadow: 1px -7px 15px #296f6f;
-    font-weight: 300;
-    line-height: 1.5em;
+    color: #eff7ff;
+font-size: 41px;
+text-shadow: 1px -7px 15px #296f6f;
+font-weight: 300;
+position: absolute;
+bottom: -50%;
   }
   /* section-first */
 
@@ -827,15 +857,14 @@ padding: 0.6em;
         padding: 0.5em;
         text-align: center;
         font-size: 4em;
+        text-shadow: 6px 3px 3px #4a6dbf;
+        color: blanchedalmond;
 }
 .board-heads {
     display: flex;
     flex-direction: row;
   }
-  .font-effect-neon {
-    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #371b37,0 0 0.6em #dccbdd, 0 0 0.8em #000, 0 0 1.0em #201f20, 0 0 1.2em #000 !important;
-    color: #faf6f7 !important;
-  }
+  
   .board-row{
     margin: auto;
     padding: 1em;
@@ -850,7 +879,7 @@ padding: 0.6em;
     margin: auto; 
     transform: scale(1);
     opacity: 1;
-    transition: 0.7s all ease-out;
+    transition: 0.3s all ease-out;
    
   }
   
@@ -937,7 +966,7 @@ height: 35vh;
 .card-icon{
   font-size: 3em;
 color: #660303;
-margin-top: 8px;
+margin-top: 10px;
 }
 .job-title {
   font-size: 1.2em;

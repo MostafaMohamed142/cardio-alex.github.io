@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="css/abt.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        const myBtn = () => {
+            document.getElementById("overlay-1").style.display='block';
+            document.getElementById("wrapper").style.display='none';
+        }
+       const myBar = () =>{
+        document.getElementById("overlay-1").style.display='none';
+        document.getElementById("wrapper").style.display='contents';
+
+       }
+    
+    </script>
+   
 </head>
 <body>
     <header>
@@ -18,24 +30,38 @@
             <nav class="header-nav">
                 <li class="nav--list"><a href="index.html">Home</a></li>
                 <li class="nav--list">About</li>
-                <li class="nav--list">program</li>
-                <li class="nav--list">workshops</li>
-                <li class="nav--list">submission</li>
-                <li class="nav--list">resgirtaion</li>
-                <li class="nav--list">housing & travel</li>
-                <li class="nav--list">sponusr</li>
+                <li class="nav--list">Program</li>
+                <li class="nav--list">Workshops</li>
+                <li class="nav--list">Submission</li>
+                <li class="nav--list">Regsitration</li>
+                <li class="nav--list">Housing & Travel</li>
+                <li class="nav--list">Sponsor</li>
                 <li class="nav--list">contact us</li>       
             </nav>
-            <div class="hid-bar">
+            <div class="hid-bar" onClick="myBtn()">
                  <span class="bar-icon" ><i class="fas fa-bars"></i></span>
                
             </div>
-            
+            <div id="overlay-1" class="overlay">
+                <div onClick="myBar()">
+                    <span class="close-icon"><i class="fas fa-times-circle"></i></span>
+                </div>
+                <li class="nav--l2"><a href="index.html">Home</a></li>
+                <li class="nav--l2">About</li>
+                <li class="nav--l2">Program</li>
+                <li class="nav--l2">Workshops</li>
+                <li class="nav--l2">Submission</li>
+                <li class="nav--l2">Regsitration</li>
+                <li class="nav--l2">housing & travel</li>
+                <li class="nav--l2">Sponsor</li>
+                <li class="nav--l2">Contact us</li> 
+            </div>
         </div>
     </header>
     <!-- end header -->
+    <div id="wrapper">
     <section class="abt1-sec">
-        <div class="abt-cont">
+        <div class="abt-cont abt-cont-bckgrd">
             <h2 class="abt-heading">About us</h2>
             <p class="abt-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ratione ea, eius commodi aut neque, a corrupti perspiciatis cupiditate qui magnam ipsum nemo blanditiis laudantium nobis mollitia repellat, itaque magni.</p>
             <span class="abt-social"><i class="fab fa-facebook" style="color:#3b5998";></i></span>
@@ -61,5 +87,6 @@
             <h4 class="cp-1">copy rights @2022 - for Icom Egypt</h4>
         </div>
     </footer>
+    </div>
 </body>
 </html>

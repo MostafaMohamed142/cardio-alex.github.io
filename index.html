@@ -21,13 +21,13 @@
             <nav class="header-nav">
                 <li class="nav--list">Home</li>
                 <li class="nav--list"><a href="about.html">About</a></li>
-                <li class="nav--list">program</li>
-                <li class="nav--list">workshops</li>
-                <li class="nav--list">submission</li>
-                <li class="nav--list">resgirtaion</li>
-                <li class="nav--list">housing & travel</li>
-                <li class="nav--list">sponusr</li>
-                <li class="nav--list">contact us</li>       
+                <li class="nav--list">Program</li>
+                <li class="nav--list">Workshops</li>
+                <li class="nav--list">Submission</li>
+                <li class="nav--list">Regsitration</li>
+                <li class="nav--list">Housing & Travel</li>
+                <li class="nav--list">Sponsor</li>
+                <li class="nav--list">Contact us</li>       
             </nav>
             <div class="hid-bar" onClick="myBtn()">
                  <span class="bar-icon"><i class="fas fa-bars"></i></span>
@@ -38,24 +38,71 @@
                     <span class="close-icon"><i class="fas fa-times-circle"></i></span>
                 </div>
                 <li class="nav--l2">Home</li>
-                <li class="nav--l2">About</li>
-                <li class="nav--l2">program</li>
-                <li class="nav--l2">workshops</li>
-                <li class="nav--l2">submission</li>
-                <li class="nav--l2">resgirtaion</li>
-                <li class="nav--l2">housing & travel</li>
-                <li class="nav--l2">sponusr</li>
-                <li class="nav--l2">contact us</li> 
+                <li class="nav--l2"><a href="about.html">About</a></li>
+                <li class="nav--l2">Program</li>
+                <li class="nav--l2">Workshops</li>
+                <li class="nav--l2">Submission</li>
+                <li class="nav--l2">Regsitration</li>
+                <li class="nav--l2">Housing & Travel</li>
+                <li class="nav--l2">Sponsor</li>
+                <li class="nav--l2">Contact us</li> 
             </div>
         </div>
     </header>
     <!-- /site header -->
+    <div id="wrapper">
     <!-- section-first -->
         <section class="sec-first">
             <div class="headings">
-                <h2 class="head-h2 font-effect-fire-animation"><sub>50</sub><sup style="font-size:30px;">th</sup></h2>
-                <h1 class="head-h1 font-effect-fire-animation">Cardio Egypt</h1>
+                <div class="text">
+                    <div class="wrapper-1">
+                        <div id="L" class="letter">C</div>
+                        <div class="shadow">C</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="I" class="letter">A</div>
+                        <div class="shadow">A</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="G" class="letter">R</div>
+                        <div class="shadow">R</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="H" class="letter">D</div>
+                        <div class="shadow">D</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="T" class="letter">I</div>
+                        <div class="shadow">I</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="N" class="letter">O</div>
+                        <div class="shadow">O</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="E" class="letter">E</div>
+                        <div class="shadow">E</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="S" class="letter">G</div>
+                        <div class="shadow">G</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="Stwo" class="letter">Y</div>
+                        <div class="shadow">Y</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="Stwo" class="letter">P</div>
+                        <div class="shadow">P</div>
+                    </div>
+                    <div class="wrapper-1">
+                        <div id="Stwo" class="letter">T</div>
+                        <div class="shadow">T</div>
+                    </div>
                 <h4 class="head-par">the 50th international congress of the egyption society of cardiology</h4>
+
+                </div>
+
             </div>
         </section>
         <!-- /section-first -->
@@ -112,7 +159,7 @@
                     <div class="cont_modal">
                         <div class="cont_text_detalles">
                           <div class="cont_text_info">
-                          <h1>Count Down to cardio alex 50th anniversary</h1>
+                          <h1>Count Down to cardio egypt 50th anniversary</h1>
                            <p>and we are anxious to welcome you the 50th cardio egypt 2023!</p>
                           
                           <a href="#" class="btn_shared">Regsiter</a>
@@ -150,7 +197,7 @@
         <!-- board member -->
         <section class="sec2">
             <div class="board-mem" onscroll="myDiv()">
-                <h2 class="board-sub font-effect-neon">Conference chairmen</h2>
+                <h2 class="board-sub">Conference chairmen</h2>
                 <div class="board-heads">
                     
                     <div id="board-row-mov" class="board-row">
@@ -171,7 +218,7 @@
                 </div>
             </div>
             <div class="board-mem">
-                <h2 class="board-sub font-effect-neon">Conference co-chairmen</h2>
+                <h2 class="board-sub">Conference co-chairmen</h2>
                 <div class="board-heads">
                     
                     <div class="board-row">
@@ -290,13 +337,18 @@
                 </div>
             </div>
         </footer>
+        <!-- footer -->
+    </div>
         <script>
             const myBtn = () => {
-                document.getElementById("overlay-1").style.display='block';
-            }
-           const myBar = () =>{
-            document.getElementById("overlay-1").style.display='none';
-           }
+            document.getElementById("overlay-1").style.display='block';
+            document.getElementById("wrapper").style.display='none';
+        }
+       const myBar = () =>{
+        document.getElementById("overlay-1").style.display='none';
+        document.getElementById("wrapper").style.display='contents';
+
+       }
         
         </script>
 </body>
