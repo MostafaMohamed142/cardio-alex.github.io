@@ -29,7 +29,7 @@
                 <li class="nav--list">Sponsor</li>
                 <li class="nav--list">Contact us</li>       
             </nav>
-            <div class="hid-bar" onClick="myBtn()">
+            <div class="hid-bar" id="hid-bar" onClick="myBtn()">
                  <span class="bar-icon"><i class="fas fa-bars"></i></span>
                
             </div>
@@ -201,17 +201,17 @@
                 <div class="board-heads">
                     
                     <div id="board-row-mov" class="board-row">
-                        <img src="images/amin-fouad.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">amin fouad</h2>
                         <h4 class="mem-des">President of Military Medical Academy</h4>
                     </div>
                     <div class="board-row">
-                        <img src="images/khaled-shoukry.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">Khaled Shokry</h2>
                         <h4 class="mem-des">Dean of Armed Forces College of Medicine</h4>
                     </div>
                     <div class="board-row">
-                        <img src="images/sameh-emil.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">Sameh Emil</h2>
                         <h4 class="mem-des">Professor of Cardiology Military Medical Academy </h4>
                     </div>
@@ -222,22 +222,22 @@
                 <div class="board-heads">
                     
                     <div class="board-row">
-                        <img src="images/ahmed-sabry.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">Ahmed Sabry</h2>
                         <h4 class="mem-des">Head of Cardiology Department Ghamra Military Hospital</h4>
                     </div>
                     <div class="board-row">
-                        <img src="images/ayther.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">Ayther Abdel Aziz</h2>
                         <h4 class="mem-des">Head of Cardiology Department International Medical Center</h4>
                     </div>
                     <div class="board-row">
-                        <img src="images/Hazem-Khamis.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">Hazem Khamis</h2>
                         <h4 class="mem-des">Interventional Cardiologist Wadi El Neel Hospital Director</h4>
                     </div>
                     <div class="board-row">
-                        <img src="images/Khaled-Nady.jpg" alt="avi" class="mem-img"/>
+                        <img src="images/avatar.png" alt="avi" class="mem-img"/>
                         <h2 class="mem-name">Khaled Elnady</h2>
                         <h4 class="mem-des">Head of Cardiology Department Maadi Military Hospital</h4>
                     </div>
@@ -328,7 +328,7 @@
                         </div>
                     </div> 
                     
-                        <h4 class="cp-1">copy rights @2022 - for Icom Egypt</h4>
+                        <h4 class="cp-1">copy rights @2022 - Mostafa Mohamed</h4>
                         <div class="cpy-r">
                         <span class="social-icon" ><i class="fab fa-facebook" style="color:#3b5998";></i></span>
                         <span class="social-icon" ><i class="fab fa-instagram" style="color:rebeccapurple";></i></span>
@@ -343,11 +343,13 @@
             const myBtn = () => {
             document.getElementById("overlay-1").style.display='block';
             document.getElementById("wrapper").style.display='none';
+            document.getElementById('hid-bar').style.visibility='hidden'
+
         }
        const myBar = () =>{
         document.getElementById("overlay-1").style.display='none';
         document.getElementById("wrapper").style.display='contents';
-
+        document.getElementById('hid-bar').style.visibility='visible'
        }
         
         </script>
